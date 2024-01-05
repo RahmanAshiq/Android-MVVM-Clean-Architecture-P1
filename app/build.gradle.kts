@@ -8,6 +8,9 @@ android {
     namespace = "com.example.mvvmcap1"
     compileSdk = 34
 
+    buildFeatures {
+        buildConfig = true
+    }
     defaultConfig {
         applicationId = "com.example.mvvmcap1"
         minSdk = 24
@@ -16,6 +19,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "API_KEY", "\"de144d4a9e000cbcb7914cc114d82318\"")
     }
 
     buildTypes {
