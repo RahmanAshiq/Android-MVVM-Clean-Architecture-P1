@@ -1,4 +1,4 @@
-package com.example.mvvmcap1.data
+package com.example.mvvmcap1.data.model.tvshow
 
 
 import com.google.gson.annotations.SerializedName

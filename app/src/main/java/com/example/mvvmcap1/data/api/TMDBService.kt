@@ -1,8 +1,8 @@
 package com.example.mvvmcap1.data.api
 
-import com.example.mvvmcap1.data.ArtistList
-import com.example.mvvmcap1.data.MovieList
-import com.example.mvvmcap1.data.TvShowList
+import com.example.mvvmcap1.data.model.artist.ArtistList
+import com.example.mvvmcap1.data.model.movie.MovieList
+import com.example.mvvmcap1.data.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
