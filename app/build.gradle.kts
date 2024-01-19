@@ -10,6 +10,7 @@ android {
 
     buildFeatures {
         buildConfig = true
+        dataBinding = true
     }
     defaultConfig {
         applicationId = "com.example.mvvmcap1"
@@ -38,9 +39,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
-    }
-    dataBinding {
-        enable = true
     }
 }
 
